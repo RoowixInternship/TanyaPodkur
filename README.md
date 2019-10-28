@@ -1,4 +1,3 @@
-# TatianaPodkur
 # Личный проект
 * Студент: TatianaPodkur.
 ---
