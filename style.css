@@ -1,0 +1,47 @@
+body  {
+  width: 683px;
+  height: 4565px;
+  background-color: #fbebea;
+}
+
+/*a {
+  width: 39px;
+  height: 4.5px;
+  font-family: PTSans;
+  font-size: 6.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2d2829;
+}*/
+
+.main-title {
+  width: 176.5px;
+  height: 63.5px;
+  font-family: PlayfairDisplay;
+  font-size: 39.3px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: 2.94px;
+  text-align: left;
+  color: #2e2829;
+}
+
+.explanation {
+  width: 129.5px;
+  height: 21.5px;
+  font-family: MarckScript;
+  font-size: 20.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  text-align: left;
+  color: #32313d;
+}
