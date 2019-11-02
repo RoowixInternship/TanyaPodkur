@@ -2,44 +2,150 @@ body  {
   background-color: #fbebea;
 }
 
-/*a {
-  width: 39px;
-  height: 4.5px;
-  font-family: PTSans;
-  font-size: 6.5px;
+/* marck-script-regular - latin */
+@font-face {
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Marck Script'), local('MarckScript-Regular'),
+       url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.svg#MarckScript') format('svg'); /* Legacy iOS */
+}
+
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/playfair-display-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'),
+       url('../fonts/playfair-display-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/playfair-display-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/playfair-display-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/playfair-display-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/playfair-display-v15-latin-regular.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+}
+
+/* pt-sans-regular - latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('PT Sans'), local('PTSans-Regular'),
+       url('../fonts/pt-sans-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/pt-sans-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/pt-sans-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/pt-sans-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/pt-sans-v11-latin-regular.svg#PTSans') format('svg'); /* Legacy iOS */
+}
+
+h1, h2, h3, h4 p, a {
+  font-family: PT Sans;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2.46;
   letter-spacing: normal;
   text-align: left;
   color: #2d2829;
-}*/
+}
+
+a[tel] {
+  font-size: 7px;
+  font-weight: bold;
+  line-height: 3;
+}
+
+nav a {
+  font-size: 6px;
+  line-height: 2;
+}
+
+.prominent-text {
+  color: #f50049;
+}
 
 .main-title {
-  width: 176.5px;
-  height: 63.5px;
-  font-family: PlayfairDisplay;
-  font-size: 39.3px;
+  font-family: Playfair Display;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.89;
-  letter-spacing: 2.94px;
-  text-align: left;
-  color: #2e2829;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 3px;
 }
 
-.explanation {
-  width: 129.5px;
-  height: 21.5px;
-  font-family: MarckScript;
-  font-size: 20.5px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.9;
-  letter-spacing: normal;
-  text-align: left;
+.main-title--smaller{
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 0px;
+}
+
+.title-addition {
+  font-family: Marck Script;
+  font-size: 20px;
+  line-height: 2;
   color: #32313d;
 }
+
+.default-button {
+  display: inline-block;
+  color: white;
+  background-color: #f50049;
+  text-decoration: none;
+  user-select: none;
+  padding: .20em 2em;
+  border-radius: 12px;
+}
+
+.advantages-text {
+  font-size: 7px;
+  line-height: 1;
+  color: #000000;
+}
+
+.cake-type{
+  font-size: 12px;;
+  line-height: 3;
+}
+
+.caption {
+  font-size: 10px;
+  line-height: 3;
+  color: rgba(45, 40, 41, 0.7);
+}
+
+.caption--dark{
+  color: #2d2829;
+}
+
+.step{
+  font-family: Playfair Display;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0px;
+  color: #f50049;
+}
+
+.step--number{
+  font-size: 30px;
+  line-height: 3;
+}
+
+.description {
+  font-size: 9px;
+  /*font-weight: normal;*/
+  line-height: 1;
+  letter-spacing: 0px;
+  color: #2f2f2f;
+}
+
+.description--title {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 3;
+}
+
