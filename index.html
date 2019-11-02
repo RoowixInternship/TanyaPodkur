@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <title>Торты на заказ</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+    </style>
   </head>
   <body>
 
     <nav>
-      <h3 class="Cakes">Cakes</h3>
+      <img src="http://placehold.it/40x50" alt="logo">
       <a href="#">наши торты</a>
       <a href="#">индивидуальный заказ</a>
       <a href="#">отзывы</a>
@@ -123,7 +127,7 @@
           <p>600 руб/кг</p>
           <a href="#">&rt;</a>
           <h3>Ваш выбор</h3>
-          <form name="заказ торта" method="post">
+          <form name="cake order" method="post">
             <p>Начинка</p>
             <input type="text">
             <p>Размер</p>
@@ -152,7 +156,7 @@
 
     <article>
       <h2>О нас</h2>
-      <h3>О кондитере</h3>
+      <p>О кондитере</p>
       <b>Кондитер - как призвание</b>
       <p>
         Павел -- профессиональный повар в различных гастрономических областях, но однажды его сердце покорило кондитерское искусство. С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как кондитер.
@@ -162,7 +166,9 @@
         Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает качественную продукцию для торжества, а главным принципом является выбор натуральных ингредиентов.
       </p>
 
-      <!-- Кнопочки инстаграмм, вк, твитер -->
+      <a href="#">instagram.Cakes</a>
+			<a href="#">vk.Cakes</a>  
+			<a href="#">twitter.Cakes</a>  
     </article>
 
     <blockquote>
@@ -194,17 +200,17 @@
       <h2>Как заказать</h2>
       <ol>
         <li>
-          <h2>1</h2>
+          <p>1</p>
           <b>Срок заказа</b>
           <p>Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</p>           
         </li>
          <li>
-          <h2>2</h2>
+          <p>2</p>
           <b>Доставка по городу</b>
           <p>Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</p>           
         </li>
         <li>
-          <h2>3</h2>
+          <p>3</p>
           <b>Доставка за городом</b>
           <p>Доставка за пределами города рассчитывается индивидуально.</p>
         </li>        
@@ -215,10 +221,10 @@
       <h2>Контакты</h2>
       <p>Остались вопросы?</p>
       <p>Заполните форму ниже и наш кондитер свяжется с Вами</p>
-      <form name="связь с клиентом" method="post">
-            <input type="text"> <!-- ??? -->
-            <input type="text">
-            <input type="text">
+      <form name="communication" method="post">
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Email адрес">
+            <input type="text" placeholder="Ваш вопрос">
             <button>Отправить</button>
       </form>      
 
@@ -226,10 +232,11 @@
       <a tel="+79068999296">+7 906 899 92 96</a>
 
       <p>Наша почта:</p>
-      <a href="#">bakerybypavel@mail.ru</a>
+      <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a>
 
       <p>Мы в соц. сетях:</p>
-      <!-- кнопки инстаграмм, вк -->
+			<a href="#">instagram.Cakes</a>
+			<a href="#">vk.Cakes</a>      
     </section>
 
     <footer>
