@@ -9,11 +9,9 @@ body  {
   font-weight: 400;
   src: url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Marck Script'), local('MarckScript-Regular'),
-       url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/Users/tpodkur/homeprog/roowix/frontend/TatianaPodkur/fonts/marck-script-v10-latin-regular.svg#MarckScript') format('svg'); /* Legacy iOS */
+
 }
 
 /* playfair-display-regular - latin */
@@ -23,11 +21,8 @@ body  {
   font-weight: 400;
   src: url('../fonts/playfair-display-v15-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'),
-       url('../fonts/playfair-display-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/playfair-display-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/playfair-display-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/playfair-display-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/playfair-display-v15-latin-regular.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
 }
 
 /* pt-sans-regular - latin */
@@ -37,11 +32,8 @@ body  {
   font-weight: 400;
   src: url('../fonts/pt-sans-v11-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('PT Sans'), local('PTSans-Regular'),
-       url('../fonts/pt-sans-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/pt-sans-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/pt-sans-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/pt-sans-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/pt-sans-v11-latin-regular.svg#PTSans') format('svg'); /* Legacy iOS */
 }
 
 h1, h2, h3, h4 p, a {
@@ -83,11 +75,23 @@ nav a {
   letter-spacing: 0px;
 }
 
+.main-title--white{
+  font-size: 20px;
+  color: #ffffff;
+}
+
 .title-addition {
   font-family: Marck Script;
   font-size: 20px;
   line-height: 2;
   color: #32313d;
+}
+
+ .bright{
+  font-family: Marck Script;
+  font-size: 13px;
+  line-height: 1;
+  color: #f50049;
 }
 
 .default-button {
@@ -135,6 +139,12 @@ nav a {
   line-height: 3;
 }
 
+.step--numberW{
+  font-size: 30px;
+  line-height: 3;
+  color: #ffffff;
+}
+
 .description {
   font-size: 9px;
   /*font-weight: normal;*/
@@ -149,3 +159,25 @@ nav a {
   line-height: 3;
 }
 
+.cost{
+  font-family: Playfair Display;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 3;
+  color: #2f2f2f;
+}
+
+blockquote {
+  font-family: Playfair Display;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1;
+  text-align: center;
+  color: #2d2829;
+}
+
+footer a {
+  font-size: 8px;
+  line-height: 2;
+}
