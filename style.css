@@ -1,6 +1,8 @@
 body  {
   background-color: #fbebea;
-  font-family: Arial;
+  font-family: PT Sans, Arial;
+  padding: 36px;
+  width: 800px;
 }
 
 /* marck-script-regular - latin */
@@ -34,7 +36,6 @@ body  {
 }
 
 h1, h2, h3, h4 p, a {
-  font-family: PT Sans;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -90,19 +91,20 @@ nav a {
 }
 
 .default-button {
-  display: inline-block;
   color: white;
   background-color: #f50049;
   text-decoration: none;
-  user-select: none;
   padding: .20em 2em;
   border-radius: 12px;
+  width: 113px;
+  text-align: center;
 }
 
 .advantages-text {
   font-size: 7px;
   line-height: 1;
   color: #000000;
+  width: 80px;
 }
 
 .cake-type{
@@ -174,3 +176,59 @@ footer a {
   font-size: 8px;
   line-height: 2;
 }
+
+
+/*---------------------------------*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+
+  height: 470px;
+  background-image: url(images/cake1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+.first-section__item {
+  padding-left: 30px;
+  width: 200px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title1 {
+  margin-top: 80px;
+  width: 175px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
