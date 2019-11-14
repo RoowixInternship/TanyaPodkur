@@ -11,80 +11,109 @@
   </head>
   <body>
 
-
   	<div class="header">
-	    <nav>
-	    	<div class="header__menu">
-		      <img class="logo" src="http://placehold.it/60x40" alt="logo">
-		      <a class="header-a" href="#">наши торты</a>
-		      <a class="prominent-text" href="#">индивидуальный заказ</a>
-		      <a href="#">отзывы</a>
-		      <a href="#">о нас</a>
-		      <a href="#">как заказать</a>
-		      <a href="#">контакты</a>
-	    	</div>
+	    <nav class="header__nav">
+	      <img class="header__logo" src="http://placehold.it/60x40" alt="logo">
+	      <a class="header__nav-item" href="#">наши торты</a>
+	      <a class="header__nav-item" href="#">индивидуальный заказ</a>
+	      <a class="header__nav-item" href="#">отзывы</a>
+	      <a class="header__nav-item" href="#">о нас</a>
+	      <a class="header__nav-item" href="#">как заказать</a>
+	      <a class="header__nav-item" href="#">контакты</a>
 	    </nav>
-
-
-	    <a href="tel:+79068999296">+7 906 899 92 96</a>
+	    <a class="header__phone-number" href="tel:+79068999296">+7 906 899 92 96</a>
   	</div>
     
-    <section class="first-section">
-      <h1 class="main-title title1">Торты на заказ</h1>
-      <h2 class="title-addition">Ручная работа</h2>
-      <a href="#" class="default-button">Выбрать торт</a>
+    <div class="main-info">  
+      <section class="cakes-to-order">
+        <h1 class="cakes-to-order__header">
+          Торты<br>на заказ
+        </h1>
+        <h2 class="cakes-to-order__subheader">Ручная работа</h2>
+        <button class="button" type="button">Выбрать торт</button>
+        <div class="cakes-to-order__advantages-list">
+  	      <p class="cakes-to-order__natural-ingredient">Натуральные<br>ингридиенты</p>
+  	      <p class="cakes-to-order__free-shipping">Доставка бесплатно<br>при заказе от 2000 рублей*</p>
+      	</div>
+      </section>
 
-      <div class="first-section__item">
-	      <p class="advantages-text">Натуральные ингридиенты</p>
-	      <p class="advantages-text">Доставка бесплатно при заказе от 2000 рублей*</p>
-    	</div>
-    </section>
+      <section class="our-cake">
+        <h2 class="our-cake__header">Наши Торты</h2>
 
-    <section>
-      <h2 class="main-title main-title--smaller">Наши Торты</h2>
+        <div class="our-cake__block">
 
-      <article>
-        <h3 class="cake-type">Классические</h3>
-        <p class="caption">24 вида</p>
-        <a class="caption caption--dark" href="#">Смотреть &gt;</a>
-      </article>
+          <article class="our-cake__classic-type">
+            <h3 class="our-cake__type-header">Классические</h3>
+            <p class="our-cake__type-count">24 вида</p>
+            <a href="#">
+              Смотреть
+              <img src="">
+            </a>
+          </article>
 
-      <article>
-        <h3 class="cake-type">Муссовые</h3>
-        <p class="caption">12 видов</p>
-        <a class="caption caption--dark" href="#">-&gt;</a>
-      </article>
+          <div class="our-cake__block-with-two">
+            <article class="our-cake__mousse-type">
+              <h3 class="our-cake__type-header">Муссовые</h3>
+              <p class="our-cake__type-count">12 видов</p>
+              <a href="#">
+                Смотреть
+                <img src="">
+              </a>
+            </article>
 
-      <article>
-        <h3 class="cake-type">Свадебные</h3>
-        <p class="caption">20 видов</p>
-        <a class="caption caption--dark" href="#">-&gt;</a>
-      </article>
+            <article class="our-cake__wedding-type">
+              <h3 class="our-cake__type-header">Свадебные</h3>
+              <p class="our-cake__type-count">20 видов</p>
+              <a href="#">
+                Смотреть
+                <img src="">
+              </a>
+            </article>
+          </div>
+        </div>
+        
+        <div class="our-cake__block">
+          
+          <div class="our-cake__block-with-two">
+            <article class="our-cake__men-type">
+              <h3 class="our-cake__type-header">Мужчинам</h3>
+              <p class="our-cake__type-count">12 видов</p>
+              <a href="#">
+                Смотреть
+                <img src="">
+              </a>
+            </article>
 
-      <article>
-        <h3 class="cake-type">Мужчинам</h3>
-        <p class="caption">12 видов</p>
-        <a class="caption caption--dark" href="#">-&gt;</a>
-      </article>
+            <article class="our-cake__women-type">
+              <h3 class="our-cake__type-header">Женщинам</h3>
+              <p class="our-cake__type-count">16 видов</p>
+              <a href="#">
+                Смотреть
+                <img src="">
+              </a>
+            </article>
+          </div>
 
-      <article>
-        <h3 class="cake-type">Женщинам</h3>
-        <p class="caption">16 видов</p>
-        <a class="caption caption--dark" href="#">-&gt;</a>
-      </article>
+          <article class="our-cake__kids-type">
+            <h3 class="our-cake__type-header">Детские</h3>
+            <p class="our-cake__type-count">18 видов</p>
+            <a href="#">
+              Смотреть
+              <img src="">
+            </a>
+          </article>
+        </div>
+      </section>
+    </div>
 
-      <article>
-        <h3 class="cake-type">Детские</h3>
-        <p class="caption">18 видов</p>
-        <a class="caption caption--dark" href="#">-&gt;</a>
-      </article>
-    </section>
+
+
 
     <section>
       <h2 class="main-title main-title--smaller">Индивидуальный заказ</h2>
       <p class="title-addition">Соберите торт в 3 шага</p>
 
-      <article>
+      <article class="individual-order-step">
         <div> 
           <h2 class="step step--number">01</h2>
           <h3 class="step">Выберите начинку</h3>
@@ -97,7 +126,7 @@
         </div>
       </article>
 
-      <article>
+      <article class="individual-order-step">
         <h2 class="step step--number">02</h2>
         <h3 class="step">Размер</h3>
         <p class="description">1кг</p>
@@ -110,7 +139,7 @@
         <p class="description">Три яруса 30,25 и 18 см<br>(25-30 персон)</p>
       </article>
 
-      <article>
+      <article class="individual-order-step">
         <div>
           <h2 class="step step--number">03</h2>
           <h3 class="step">Оформление</h3>
@@ -195,23 +224,23 @@
 
     <article>
       <h2 class="main-title main-title--white">Как заказать</h2>
-      <ol>
-        <li>
+      
+        <p>
           <p class="step step--numberW">1</p>
-          <p class="main-title main-title--smaller">Срок заказа</p>
-          <p class="description">Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</p>           
-        </li>
-         <li>
+          <p class="main-title main-title--white">Срок заказа</p>
+          <p class="description description--white">Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</p>           
+        </p>
+         <p>
           <p class="step step--numberW">2</p>
-          <p class="main-title main-title--smaller">Доставка по городу</p>
-          <p class="description">Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</p>           
-        </li>
-        <li>
+          <p class="main-title main-title--white">Доставка по городу</p>
+          <p class="description description--white">Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</p>           
+        </p>
+        <p>
           <p class="step step--numberW">3</p>
-          <p class="main-title main-title--smaller">Доставка за городом</p>
-          <p class="description">Доставка за пределами города рассчитывается индивидуально.</p>
-        </li>        
-      </ol>
+          <p class="main-title main-title--white">Доставка за городом</p>
+          <p class="description description--white">Доставка за пределами города рассчитывается индивидуально.</p>
+        </p>        
+      
     </article>
 
     <section>
