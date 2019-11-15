@@ -178,7 +178,7 @@ body  {
   background-image: url(images/classic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #ffffff;
+  background-position: center;
   box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
 }
 
@@ -199,13 +199,12 @@ body  {
   color: #2d2829;
   text-decoration: none;
   align-self: flex-end;
+}
 
-  padding-right: 20px;
-
-  background-image: url(images/ref.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 8px 6px;
+.img-ref {
+  width: 8px;
+  height: 6px;
+  object-fit: contain;
 }
 
 .our-cake__block-with-two {
@@ -226,7 +225,7 @@ body  {
   background-image: url(images/mousse.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #ffffff;
+  background-position:center;
   box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
 }
 
@@ -242,7 +241,7 @@ body  {
   background-image: url(images/wedding.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #ffffff;
+  background-position:center;
   box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
 }
 
@@ -258,7 +257,7 @@ body  {
   background-image: url(images/men.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #ffffff;
+  background-position:center;
   box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
 }
 
@@ -274,7 +273,7 @@ body  {
   background-image: url(images/women.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #ffffff;
+  background-position:center;
   box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
 }
 
@@ -290,7 +289,7 @@ body  {
   background-image: url(images/kids.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #ffffff;
+  background-position: center;
   box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
 }
 
@@ -370,7 +369,7 @@ body  {
 
 .slider__item-header {
   font-size: 10px;
-}`
+}
 
 .slider__item-description {
   font-size: 9px;
