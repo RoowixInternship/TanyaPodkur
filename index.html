@@ -43,9 +43,11 @@
         <div class="our-cake__block">
 
           <article class="our-cake__classic-type">
-            <h3 class="our-cake__type-header">Классические</h3>
-            <p class="our-cake__type-count">24 вида</p>
-            <a href="#">
+            <div>
+             <h3 class="our-cake__type-header">Классические</h3>
+             <p class="our-cake__type-count">24 вида</p>
+            </div>
+            <a class="our-cake__ref" href="#">
               Смотреть
               <img src="">
             </a>
@@ -53,21 +55,21 @@
 
           <div class="our-cake__block-with-two">
             <article class="our-cake__mousse-type">
-              <h3 class="our-cake__type-header">Муссовые</h3>
-              <p class="our-cake__type-count">12 видов</p>
-              <a href="#">
-                Смотреть
+              <div>
+               <h3 class="our-cake__type-header">Муссовые</h3>
+               <p class="our-cake__type-count">12 видов</p>           
+              </div>
+              <a class="our-cake__ref" href="#">
                 <img src="">
               </a>
             </article>
 
             <article class="our-cake__wedding-type">
-              <h3 class="our-cake__type-header">Свадебные</h3>
-              <p class="our-cake__type-count">20 видов</p>
-              <a href="#">
-                Смотреть
-                <img src="">
-              </a>
+              <div>
+                <h3 class="our-cake__type-header">Свадебные</h3>
+                <p class="our-cake__type-count">20 видов</p>
+              </div>
+              <a class="our-cake__ref" href="#"> </a>
             </article>
           </div>
         </div>
@@ -76,31 +78,28 @@
           
           <div class="our-cake__block-with-two">
             <article class="our-cake__men-type">
-              <h3 class="our-cake__type-header">Мужчинам</h3>
-              <p class="our-cake__type-count">12 видов</p>
-              <a href="#">
-                Смотреть
-                <img src="">
-              </a>
+              <div>
+                <h3 class="our-cake__type-header">Мужчинам</h3>
+                <p class="our-cake__type-count">12 видов</p>
+              </div>
+              <a class="our-cake__ref" href="#"> </a>
             </article>
 
             <article class="our-cake__women-type">
-              <h3 class="our-cake__type-header">Женщинам</h3>
-              <p class="our-cake__type-count">16 видов</p>
-              <a href="#">
-                Смотреть
-                <img src="">
-              </a>
+              <div>
+                <h3 class="our-cake__type-header">Женщинам</h3>
+                <p class="our-cake__type-count">16 видов</p>
+              </div>
+              <a class="our-cake__ref" href="#"> </a>
             </article>
           </div>
 
           <article class="our-cake__kids-type">
-            <h3 class="our-cake__type-header">Детские</h3>
-            <p class="our-cake__type-count">18 видов</p>
-            <a href="#">
-              Смотреть
-              <img src="">
-            </a>
+            <div>
+              <h3 class="our-cake__type-header">Детские</h3>
+              <p class="our-cake__type-count">18 видов</p>
+            </div>
+            <a class="our-cake__ref" href="#"> </a>
           </article>
         </div>
       </section>
@@ -109,61 +108,133 @@
 
 
 
-    <section>
-      <h2 class="main-title main-title--smaller">Индивидуальный заказ</h2>
-      <p class="title-addition">Соберите торт в 3 шага</p>
+    <section class="individual-order">
+      <h2 class="individual-order__header">Индивидуальный заказ</h2>
+      <p class="individual-order__subheader">Соберите торт в 3 шага</p>
 
-      <article class="individual-order-step">
-        <div> 
-          <h2 class="step step--number">01</h2>
-          <h3 class="step">Выберите начинку</h3>
-          <a href="#">&gt;</a>
-          <h4 class="description description--title">Шоколадный ганаш</h4>
-          <p class="description">Ароматный шоколадный бисквит, густой шоколадный крем - самый шоколадный из всех возможных десертов!</p>
-          <p class="cost">1000 руб/кг</p>
-          <a href="#" class="default-button">Выбрать</a>
-          <span>1/12</span>
+      <section class="filling individual-order__step"> 
+        <h4 class="filling__header">
+          <span class="filling__header-order">
+            01<br>
+          </span>
+          Выберите<br>начинку
+        </h4>
+        <div class="slider">
+          <button class="slider__button-left" type="button"></button>
+          <div class="slider__inner-wrapper">
+
+            <div class="slider__item">
+              <img class="slider__filling-view" src="images/ganache-filling.png" alt="chocolate-ganache" width="170px" height="175px">
+              <div class="slider__info-wrapper">
+                <h6 class="slider__item-header">Шоколадный ганаш</h6>
+                <p class="slider__item-description">Ароматный шоколадный бисквит, густой шоколадный крем - самый шоколадный из всех возможных десертов!</p>
+                <p class="slider__item-cost">1000 руб/кг</p>
+                <button type="button">Выбрать</button>
+              </div>
+              <span class="slider__page-number">1/12</span>
+            </div>
+
+<!--             <div class="slider__item">
+              <img src="" alt="Шоколадный ганаш">
+              <div class="slider__info-wrapper">
+                <h6 class="slider__item-header">Шоколадный ганаш</h6>
+                <p class="slider__item-description"></p>
+                <p class="slider__item-cost">1000 руб/кг</p>
+                <button type="button">Выбрать</button>
+              </div>
+              <span>1/12</span>
+            </div> -->
+
+          </div>
+          <button class="slider__button-right" type="button"></button>
         </div>
-      </article>
+      </section>
 
-      <article class="individual-order-step">
-        <h2 class="step step--number">02</h2>
-        <h3 class="step">Размер</h3>
-        <p class="description">1кг</p>
-        <p class="description">17-18 см<br>(1кг-6 персон)</p>
-        <p class="description">2кг</p>
-        <p class="description">23-24 см<br>(10-12 персон)</p>
-        <p class="description">5кг</p>
-        <p class="description">Два яруса 25 и 20 см<br>(10-12 персон)</p>
-        <p class="description">8кг</p>
-        <p class="description">Три яруса 30,25 и 18 см<br>(25-30 персон)</p>
-      </article>
-
-      <article class="individual-order-step">
-        <div>
-          <h2 class="step step--number">03</h2>
-          <h3 class="step">Оформление</h3>
-          <a href="#">&lt;</a>
-          <img src="http://placehold.it/150x100" alt="начинка_ЯгодноеАссорти">
-          <p class="description">Ягодное ассорти</p>
-          <p class="cost">700 руб/кг</p>
-
-          <img src="http://placehold.it/150x100" alt="начинка_Маршмэллоу">
-          <p class="description">Маршмэллоу</p>
-          <p class="cost">600 руб/кг</p>
-          <a href="#">&rt;</a>
-          <h3>Ваш выбор</h3>
-          <form name="cake order" method="post">
-            <p class="bright">Начинка</p>
-            <input type="text">
-            <p class="bright">Размер</p>
-            <input type="text">
-            <p class="bright">Оформление</p>
-            <input type="text">
-            <a href="#" class="default-button">Заказать торт</a>
-          </form>
+      <section class="sizes individual-order__step">
+        <h4 class="sizes__header">
+          <span class="sizes__header-order">
+            02<br>
+          </span>
+          Размер
+        </h4>
+        <div class="sizes__list">
+          <div>
+            <button class="sizes__item">
+              1 кг
+              <!-- <img src="images/1kg.png" alt="cake-size-1kg"> -->
+            </button>
+            <p class="sizes__item-description">17-18см<br>(1кг — 6 персон)</p>  
+          </div>
+          <div>
+            <button class="sizes__item">
+              2 кг
+              <!-- <img src="images/2kg.png" alt="cake-size-2kg"> -->
+            </button>
+            <p class="sizes__item-description">23-24см<br>(2кг — 10-12 персон)</p>  
+          </div>
+          <div>
+            <button class="sizes__item">
+              5 кг
+              <!-- <img src="images/5kg.png" alt="cake-size-5kg"> -->
+            </button>
+            <p class="sizes__item-description">Два яруса 25 и 20 см<br>(15кг — 20 персон)</p>  
+          </div>
+          <div>
+            <button class="sizes__item">
+              8 кг
+              <!-- <img src="images/5kg.png" alt="cake-size-5kg"> -->
+            </button>
+            <p class="sizes__item-description">Три яруса 30, 25 и 18 см<br>(25кг — 30 персон)</p>  
+          </div>
         </div>
-      </article>
+      </section>
+
+
+
+      <section class="decor individual-order__step">
+        <div class="decor__page">
+          <h4 class="decor__header">
+            <span class="decor__header-order">
+              03<br>
+            </span>
+            Оформление
+          </h4>
+          <div class="slider slider--decor">
+            <button class="slider__button-left" type="button"></button>
+            <div class="slider__decor-view">
+              <div class="decor__item decor__item--assorted-berries">
+                <p class="decor__name">Ягодное ассорти</p>
+                <p class="decor__cost">700 руб/кг</p>
+              </div> 
+              <div class="decor__item decor__item--marshmallow">
+                <p class="decor__name">Маршмэллоу</p>
+                <p class="decor__cost">600 руб/кг</p>
+              </div> 
+            </div>
+            <button class="slider__button-right" type="button"></button>
+            <span class="slider__page-number">2/35</span>
+          </div>
+        </div>
+        <form class="decor__form">
+          <p class="decor__form-header">Ваш выбор</p>
+          <div class="decor__form-field-list">
+            <div class="decor__form-field">
+              <p class="decor__field">Начинка</p>
+              <input type="text">
+            </div>
+            <div class="decor__form-field">
+              <p class="decor__field">Размер</p>
+              <input type="text">
+            </div>
+            <div class="decor__form-field">
+              <p class="decor__field">Оформление</p>
+              <input type="text">
+            </div>
+            <button type="submit">Заказать торт</button>
+          </div>
+        </form>
+      </section>
+
     </section>
 
     <section>

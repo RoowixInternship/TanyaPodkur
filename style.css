@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body  {
   background-color: #fbebea;
   font-family: PT Sans, Arial;
@@ -8,6 +15,8 @@ body  {
   font-style: normal;
   letter-spacing: normal;
   color: #2d2829;
+
+  max-width: 685px;
 }
 
 /* marck-script-regular - latin */
@@ -76,13 +85,11 @@ body  {
 .main-info {
   background-image: url(images/main-cake.jpg);
   background-repeat: no-repeat;
-  background-position: top, right; 
+  background-position: top right; 
 }
 
 .cakes-to-order {
-  display: flex;
-  flex-direction: column;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 .cakes-to-order__header {
@@ -90,34 +97,34 @@ body  {
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 3px;
+  margin-bottom: 8px;
 }
 
 .cakes-to-order__subheader {
   font-family: Marck Script;
   font-size: 20px;
   font-weight: normal;
+  margin-top: 8px;
+  margin-bottom: 40px;
 }
 
 .button {
-  width: 100px;
+  max-width: 100px;
 }
 
 .cakes-to-order__advantages-list {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-top: 30px;
-
-  max-width: 200px;
+  margin-top: 60px;
+  max-width: 250px;
 }
 
 .cakes-to-order__natural-ingredient {
   font-size: 7px;
   color: #000000;
-  padding-left: 25px;
-  padding-top: 10px
-
-  height: 30px;
+  padding: 7px;
+  padding-left: 35px;
 
   background-image: url(images/ikon_leaf.png);
   background-repeat: no-repeat;
@@ -128,10 +135,9 @@ body  {
 .cakes-to-order__free-shipping {
   font-size: 7px;
   color: #000000;
-  padding-left: 25px;
-  padding-top: 10px
+  padding: 7px;
+  padding-left: 35px;
 
-  height: 30px;
 
   background-image: url(images/ikon_gift.png);
   background-repeat: no-repeat;
@@ -155,19 +161,391 @@ body  {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .our-cake__classic-type {
+  width: 350px;
+  height: 320px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background-image: url(images/classic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ffffff;
+  box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
+}
+
+.our-cake__type-header {
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.our-cake__type-count {
+  font-size: 10px;
+  color: rgba(45, 40, 41, 0.7);
+  margin: 0px;
+}
+
+.our-cake__ref {
+  font-size: 10px;
+  color: #2d2829;
+  text-decoration: none;
+  align-self: flex-end;
+
+  padding-right: 20px;
+
+  background-image: url(images/ref.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 8px 6px;
+}
+
+.our-cake__block-with-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.our-cake__mousse-type {
+  width: 240px;
+  height: 150px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url(images/mousse.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff;
+  box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
+}
+
+.our-cake__wedding-type {
+  width: 240px;
+  height: 150px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url(images/wedding.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff;
+  box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
+}
+
+.our-cake__men-type {
+  width: 240px;
+  height: 150px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url(images/men.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff;
+  box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
+}
+
+.our-cake__women-type {
+  width: 240px;
+  height: 150px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url(images/women.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff;
+  box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
+}
+
+.our-cake__kids-type {
+  width: 350px;
+  height: 320px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url(images/kids.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff;
+  box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
+}
+
+.individual-order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px; 
+}
+
+.individual-order__header {
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-weight: bold;
+  margin:  0px;
+}
+
+.individual-order__subheader {
+  font-family: Marck Script;
+  font-size: 17px;
+  margin: 0px;
+}
+
+.individual-order__step {
+  width: 613px;
+  height: 285px;
+  box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px 40px;
+}
+
+.filling {
+  display: flex;
+  flex-direction: row;
+}
+
+.filling__header {
+  font-family: Playfair Display;
+  font-size: 13px;
+  font-weight: bold;
+  color: #f50049;
+  margin: 0px;
+}
+
+.filling__header-order {
+  font-size: 30px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-self: center;
+}
+
+.slider__inner-wrapper {
+
+}
+
+.slider__filling-view {
+  background-color: #fbebea;
+  align-self: center;
+}
+
+.slider__item {
+  display: flex;
+  flex-direction: row;
+}
+
+.slider__info-wrapper {
+
+  margin: 10px;
+  align-self: center;
+}
+
+.slider__item-header {
+  font-size: 10px;
+}`
+
+.slider__item-description {
+  font-size: 9px;
+}
+
+.slider__item-cost {
+  font-family: Playfair Display;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.sizes {
+  display: flex;
+  flex-direction: row;
+}
+
+.sizes__header {
+  font-family: Playfair Display;
+  font-size: 13px;
+  font-weight: bold;
+  color: #f50049;
+  margin: 0px;
+}
+
+.sizes__list {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.sizes__header-order {
+  font-size: 30px;
+}
+
+.sizes-item {
+
+}
+
+.sizes__item-description {
+  font-size: 9px;
+  color: rgba(47, 47, 47, 0.8);
+}
+
+.decor {
+  display: flex;
+  flex-direction: column;
+  height: 375px;
+
+  background-image: url(images/decor-cake.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 126px 167px;
+}
+
+.decor__page {
+  display: flex;
+  flex-direction: row;
+}
+
+.decor__header {
+  font-family: Playfair Display;
+  font-size: 13px;
+  font-weight: bold;
+  color: #f50049;
+  margin: 0px;
+
+  flex-grow: 0;
+}
+
+.decor__header-order {
+  font-size: 30px;
+}
+
+.slider--decor {
+  flex-grow: 1;
+}
+
+.slider__button-left {
+  background-image: url(images/slid-left.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 8px;
+  background-color: #ffffff;
+  border: 0;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.slider__button-right {
+  background-image: url(images/slid-right.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 8px;
+  background-color: #ffffff;
+  border: 0;
+  margin-left: 20px; 
+  align-self: center;
+}
+
+.slider__decor-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.decor__item {
+  width: 160px;
+  height: 215px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  box-shadow: 0px 3.5px 6.4px 0.1px rgba(0, 0, 0, 0.05);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.decor__item--assorted-berries {
+  background-image: url(images/assorted-berries.png);
+}
 
+.decor__item--marshmallow {
+  background-image: url(images/assorted-berries.png);
+}
 
+.decor__name {
+  font-size: 10px;
+  margin: 0px;
+}
 
+.decor__cost {
+  font-family: Playfair Display;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0px;
+}
 
+.slider__page-number {
+  font-size: 9px;
+  color: rgba(47, 47, 47, 0.7);
+  align-self: flex-end; 
+}
 
+.decor__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.decor__form-header {
+  font-family: Playfair Display;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.decor__form-field-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.decor__field {
+  font-family: Marck Script;
+  font-size: 13px;
+  color: #f50049;
+  margin: 5px;
+}
 
 
 
