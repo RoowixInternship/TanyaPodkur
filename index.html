@@ -13,7 +13,7 @@
 
   	<div class="header">
 	    <nav class="header__nav">
-	      <img class="header__logo" src="http://placehold.it/60x40" alt="logo">
+	      <img class="header__logo" src="images/logo.png" width="67px" height="18px" alt="logo">
 	      <a class="header__nav-item" href="#">наши торты</a>
 	      <a class="header__nav-item" href="#">индивидуальный заказ</a>
 	      <a class="header__nav-item" href="#">отзывы</a>
@@ -27,88 +27,93 @@
     <div class="main-info">  
       <section class="cakes-to-order">
         <h1 class="cakes-to-order__header">
-          Торты<br>на заказ
+          Торты на заказ
         </h1>
         <h2 class="cakes-to-order__subheader">Ручная работа</h2>
-        <button class="button" type="button">Выбрать торт</button>
+        <button class="button button--cakes-to-order" type="button">Выбрать торт</button>
         <div class="cakes-to-order__advantages-list">
-  	      <p class="cakes-to-order__natural-ingredient">Натуральные<br>ингридиенты</p>
-  	      <p class="cakes-to-order__free-shipping">Доставка бесплатно<br>при заказе от 2000 рублей*</p>
+  	      <p class="cakes-to-order__natural-ingredient">Натуральные ингридиенты</p>
+  	      <p class="cakes-to-order__free-shipping">Доставка бесплатно при заказе от 2000 рублей*</p>
       	</div>
       </section>
 
       <section class="our-cake">
         <h2 class="our-cake__header">Наши Торты</h2>
 
-        <div class="our-cake__block">
+        <div class="catalog__block">
 
-          <article class="our-cake__classic-type">
-            <div>
-             <h3 class="our-cake__type-header">Классические</h3>
-             <p class="our-cake__type-count">24 вида</p>
-            </div>
-            <a class="our-cake__ref" href="#">
-              Смотреть
-              <img class="img-ref" src="images/ref.png" alt="see-more">
+          <article class="catalog__item">
+            <a href="" class="catalog__item-link">
+            	<div>
+		           <h3 class="catalog__item-title">Классические</h3>
+		           <p class="catalog__item-type-counter">24 вида</p>
+            	</div>
+            	<img src="images/classic.jpg" alt="classic" alt="cake" class='catalog__item-image'>
+          		<p class='catalog__item-add' href="#">Смотреть
+          			<img width="17px" src="images/ref.png" alt="see-more">
+          		</p>
             </a>
           </article>
 
-          <div class="our-cake__block-with-two">
-            <article class="our-cake__mousse-type">
-              <div>
-               <h3 class="our-cake__type-header">Муссовые</h3>
-               <p class="our-cake__type-count">12 видов</p>           
-              </div>
-              <a class="our-cake__ref" href="#">
-                <img class="img-ref" src="images/ref.png" alt="see-more">
-              </a>
+          <div class="our-cake__double-item-wrapper">
+            <article class="catalog__item catalog__item--smaller">
+	            <a href="" class="catalog__item-link">
+	            	<div>
+			           <h3 class="catalog__item-title">Муссовые</h3>
+			           <p class="catalog__item-type-counter">12 видов</p>
+	            	</div>
+	            	<img src="images/mousse.jpg" alt="mousse" alt="cake" class='catalog__item-image'>
+          			<img class="catalog__item-add" width="17px" src="images/ref.png" alt="see-more">
+	            </a>
             </article>
-
-            <article class="our-cake__wedding-type">
-              <div>
-                <h3 class="our-cake__type-header">Свадебные</h3>
-                <p class="our-cake__type-count">20 видов</p>
-              </div>
-              <a class="our-cake__ref" href="#">
-                <img class="img-ref" src="images/ref.png" alt="see-more">
-              </a>
+            <article class="catalog__item catalog__item--smaller">
+	            <a href="" class="catalog__item-link">
+	            	<div>
+			           <h3 class="catalog__item-title">Свадебные</h3>
+			           <p class="catalog__item-type-counter">20 видов</p>
+	            	</div>
+	            	<img src="images/wedding.jpg" alt="mousse" alt="cake" class='catalog__item-image'>
+          			<img class="catalog__item-add" width="17px" src="images/ref.png" alt="see-more">
+	            </a>
             </article>
           </div>
         </div>
         
-        <div class="our-cake__block">
+        <div class="catalog__block">
           
-          <div class="our-cake__block-with-two">
-            <article class="our-cake__men-type">
-              <div>
-                <h3 class="our-cake__type-header">Мужчинам</h3>
-                <p class="our-cake__type-count">12 видов</p>
-              </div>
-              <a class="our-cake__ref" href="#">
-                <img class="img-ref" src="images/ref.png" alt="see-more">
-              </a>
+          <div class="our-cake__double-item-wrapper">
+            <article class="catalog__item catalog__item--smaller">
+	            <a href="" class="catalog__item-link">
+	            	<div>
+			           <h3 class="catalog__item-title">Мужчинам</h3>
+			           <p class="catalog__item-type-counter">12 видов</p>
+	            	</div>
+	            	<img src="images/men.jpg" alt="mousse" alt="cake" class='catalog__item-image'>
+            		<img class="catalog__item-add" width="17px" src="images/ref.png" alt="see-more">	
+	            </a>
             </article>
-
-            <article class="our-cake__women-type">
-              <div>
-                <h3 class="our-cake__type-header">Женщинам</h3>
-                <p class="our-cake__type-count">16 видов</p>
-              </div>
-              <a class="our-cake__ref" href="#">
-                <img class="img-ref" src="images/ref.png" alt="see-more">
-              </a>
+            <article class="catalog__item catalog__item--smaller">
+	            <a href="" class="catalog__item-link">
+	            	<div>
+			           <h3 class="catalog__item-title">Женщинам</h3>
+			           <p class="catalog__item-type-counter">16 видов</p>
+	            	</div>
+	            	<img src="images/women.jpg" alt="mousse" alt="cake" class='catalog__item-image'>
+          			<img class="catalog__item-add" width="17px" src="images/ref.png" alt="see-more">
+	            </a>
             </article>
           </div>
 
-          <article class="our-cake__kids-type">
-            <div>
-              <h3 class="our-cake__type-header">Детские</h3>
-              <p class="our-cake__type-count">18 видов</p>
-            </div>
-            <a class="our-cake__ref" href="#">
-              <img class="img-ref" src="images/ref.png" alt="see-more">
-            </a>
-          </article>
+            <article class="catalog__item">
+	            <a href="" class="catalog__item-link">
+	            	<div>
+			           <h3 class="catalog__item-title">Детские</h3>
+			           <p class="catalog__item-type-counter">18 видов</p>
+	            	</div>
+	            	<img src="images/kids.jpg" alt="mousse" alt="cake" class='catalog__item-image'>
+          			<img class="catalog__item-add" width="17px" src="images/ref.png" alt="see-more">
+	            </a>
+            </article>
         </div>
       </section>
     </div>
@@ -119,64 +124,64 @@
       <section class="filling individual-order__step"> 
         <h4 class="filling__header">
           <span class="filling__header-order">
-            01<br>
+            01
           </span>
-          Выберите<br>начинку
+          Выберите начинку
         </h4>
         <div class="slider">
-          <button class="slider__button-left" type="button"></button>
+          <button class="slider__button slider__button--left" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.031" height="16"><path data-name="стрелка влево" d="M.441 9.05a1.487 1.487 0 010-2.12L7.284.29a1.021 1.021 0 011.431 0 .987.987 0 010 1.41L2.228 7.99l6.487 6.29a.987.987 0 010 1.41 1.021 1.021 0 01-1.431 0L.441 9.05z" fill="#f17d91" fill-rule="evenodd"/></svg>
+          </button>
+          <button class="slider__button slider__button--right" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.031" height="16"><path data-name="стрелка влево" d="M.441 9.05a1.487 1.487 0 010-2.12L7.284.29a1.021 1.021 0 011.431 0 .987.987 0 010 1.41L2.228 7.99l6.487 6.29a.987.987 0 010 1.41 1.021 1.021 0 01-1.431 0L.441 9.05z" fill="#f17d91" fill-rule="evenodd"/></svg>
+          </button>
           <div class="slider__inner-wrapper">
 
             <div class="slider__item">
-              <img class="slider__filling-view" src="images/ganache-filling.png" alt="chocolate-ganache">
+              <img class="slider__filling-view" src="images/ganache-filling.jpg" alt="chocolate-ganache">
               <div class="slider__info-wrapper">
                 <h6 class="slider__item-header">Шоколадный ганаш</h6>
                 <p class="slider__item-description">Ароматный шоколадный бисквит, густой шоколадный крем - самый шоколадный из всех возможных десертов!</p>
                 <p class="slider__item-cost">1000 руб/кг</p>
-                <button type="button">Выбрать</button>
+                <button class="button button--filling-button" type="button">Выбрать</button>
               </div>
-              <span class="slider__page-number">1/12</span>
             </div>
           </div>
-          <button class="slider__button-right" type="button"></button>
+          <span class="slider__page-number">1/12</span>
         </div>
       </section>
 
       <section class="sizes individual-order__step">
         <h4 class="sizes__header">
           <span class="sizes__header-order">
-            02<br>
+            02
           </span>
           Размер
         </h4>
         <div class="sizes__list">
-          <div>
-            <button class="sizes__item">
-              1 кг
-              <!-- <img src="images/1kg.png" alt="cake-size-1kg"> -->
+          <div class="sizes__item">
+            <button class="sizes__button" type="button">
+              <img src="images/1kg.png" width="110px" alt="cake-size-1kg">
             </button>
-            <p class="sizes__item-description">17-18см<br>(1кг — 6 персон)</p>  
+            <p class="sizes__item-description sizes__item-description--one-kg">17-18см (1кг — 6 персон)</p>  
           </div>
-          <div>
-            <button class="sizes__item">
-              2 кг
-              <!-- <img src="images/2kg.png" alt="cake-size-2kg"> -->
+          <div class="sizes__item">
+            <button class="sizes__button">
+              <img src="images/2kg.png" width="154px" alt="cake-size-2kg">
             </button>
-            <p class="sizes__item-description">23-24см<br>(2кг — 10-12 персон)</p>  
+            <p class="sizes__item-description sizes__item-description--two-kg">23-24см (2кг — 10-12 персон)</p>  
           </div>
-          <div>
-            <button class="sizes__item">
-              5 кг
-              <!-- <img src="images/5kg.png" alt="cake-size-5kg"> -->
+          <div class="sizes__item">
+            <button class="sizes__button">
+              <img src="images/5kg.png" width="174px" alt="cake-size-5kg">
             </button>
-            <p class="sizes__item-description">Два яруса 25 и 20 см<br>(15кг — 20 персон)</p>  
+            <p class="sizes__item-description sizes__item-description--five-kg">Два яруса 25 и 20 см (5кг — 20 персон)</p>  
           </div>
-          <div>
-            <button class="sizes__item">
-              8 кг
-              <!-- <img src="images/5kg.png" alt="cake-size-5kg"> -->
+          <div class="sizes__item">
+            <button class="sizes__button">
+              <img src="images/8kg.png" width="200px" alt="cake-size-5kg">
             </button>
-            <p class="sizes__item-description">Три яруса 30, 25 и 18 см<br>(25кг — 30 персон)</p>  
+            <p class="sizes__item-description sizes__item-description--eight-kg">Три яруса 30, 25 и 18 см (8кг — 30 персон)</p>  
           </div>
         </div>
       </section>
@@ -185,12 +190,17 @@
         <div class="decor__page">
           <h4 class="decor__header">
             <span class="decor__header-order">
-              03<br>
+              03
             </span>
             Оформление
           </h4>
           <div class="slider slider--decor">
-            <button class="slider__button-left" type="button"></button>
+            <button class="slider__button slider__button--left" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="9.031" height="16"><path data-name="стрелка влево" d="M.441 9.05a1.487 1.487 0 010-2.12L7.284.29a1.021 1.021 0 011.431 0 .987.987 0 010 1.41L2.228 7.99l6.487 6.29a.987.987 0 010 1.41 1.021 1.021 0 01-1.431 0L.441 9.05z" fill="#f17d91" fill-rule="evenodd"/></svg>
+            </button>
+            <button class="slider__button slider__button--right" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="9.031" height="16"><path data-name="стрелка влево" d="M.441 9.05a1.487 1.487 0 010-2.12L7.284.29a1.021 1.021 0 011.431 0 .987.987 0 010 1.41L2.228 7.99l6.487 6.29a.987.987 0 010 1.41 1.021 1.021 0 01-1.431 0L.441 9.05z" fill="#f17d91" fill-rule="evenodd"/></svg>
+            </button>
             <div class="slider__decor-view">
               <div class="decor__item decor__item--assorted-berries">
                 <p class="decor__name">Ягодное ассорти</p>
@@ -201,7 +211,6 @@
                 <p class="decor__cost">600 руб/кг</p>
               </div> 
             </div>
-            <button class="slider__button-right" type="button"></button>
             <span class="slider__page-number">2/35</span>
           </div>
         </div>
@@ -209,131 +218,191 @@
           <p class="decor__form-header">Ваш выбор</p>
           <div class="decor__form-field-list">
             <div class="decor__form-field">
-              <p class="decor__field">Начинка</p>
-              <input type="text">
+              <label class="decor__field">
+                Начинка
+             	 <input class="decor__input" type="text">
+              </label>
+            </div>
+            <div class="decor__form-field decor__form-field--size">
+              <label class="decor__field">
+                Размер
+              	<input class="decor__input decor__input--size" type="text">
+              </label>
             </div>
             <div class="decor__form-field">
-              <p class="decor__field">Размер</p>
-              <input type="text">
+              <label class="decor__field">
+                Оформление
+              	<input class="decor__input" type="text">
+              </label>
             </div>
-            <div class="decor__form-field">
-              <p class="decor__field">Оформление</p>
-              <input type="text">
-            </div>
-            <button type="submit">Заказать торт</button>
+            <button class="button button--decor-form" type="submit">Заказать торт</button>
           </div>
         </form>
       </section>
     </section>
 
-    <section>
-      <h2 class="main-title main-title--smaller">Отзывы</h2>
-      <article>
-        <a href="#">&lt;</a>
-        <img src="http://placehold.it/40x40" alt="фото">
-        <p class="description description--title">Мария</p>
-        <p class="description">юрист, 33 года</p>
-        <p class="description">Заказывала торт брауни на юбилей мужа. Гости были в восторге! Отдельное спасибо за своевременную доставку</p>
-        <a href="#">Развернуть</a>
-        <a href="#">&rt;</a>
-        <span>1/26</span>
+    <section class="reviews">
+      <h2 class="reviews__header">Отзывы</h2>
+      <article class="slider slider--reviews">
+        <button class="slider__button slider__button--left" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="9.031" height="16"><path data-name="стрелка влево" d="M.441 9.05a1.487 1.487 0 010-2.12L7.284.29a1.021 1.021 0 011.431 0 .987.987 0 010 1.41L2.228 7.99l6.487 6.29a.987.987 0 010 1.41 1.021 1.021 0 01-1.431 0L.441 9.05z" fill="#f17d91" fill-rule="evenodd"/></svg>
+        </button>
+        <button class="slider__button slider__button--right" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="9.031" height="16"><path data-name="стрелка влево" d="M.441 9.05a1.487 1.487 0 010-2.12L7.284.29a1.021 1.021 0 011.431 0 .987.987 0 010 1.41L2.228 7.99l6.487 6.29a.987.987 0 010 1.41 1.021 1.021 0 01-1.431 0L.441 9.05z" fill="#f17d91" fill-rule="evenodd"/></svg>
+        </button>
+        <div class="slider__inner-wrapper">
+          <div class="slider__item">
+            <img class="reviews__photo" src="images/mary.jpg">
+            <div class="slider__info-wrapper slider__info-wrapper--reviews">
+              <p class="reviews__name">Мария</p>
+              <p class="reviews__person">юрист, 33 года</p>
+              <p class="reviews__rewiew">
+                Заказывала торт брауни на юбилей мужа. Гости были в восторге! Отдельное спасибо за своевременную доставку! Теперь будем заказывать торты только у вас для наших семейных праздников:)
+                <a class="reviews__link" href="#">Развернуть</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="slider__page-number slider__page-number--reviews">1/26</span>
       </article>
     </section>
 
-    <article>
-      <h2 class="main-title main-title--smaller">О нас</h2>
-      <p class="title-addition">О кондитере</p>
-      <p class="description description--title">Кондитер - как призвание</p>
-      <p class="description">
-        Павел -- профессиональный повар в различных гастрономических областях, но однажды его сердце покорило кондитерское искусство. С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как кондитер.
-      </p>
-      <p class="description description--title">Принцип - натуральные ингредиенты</p>
-      <p class="description">
-        Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает качественную продукцию для торжества, а главным принципом является выбор натуральных ингредиентов.
-      </p>
-
-      <a href="#">instagram.Cakes</a>
-      <a href="#">vk.Cakes</a>  
-      <a href="#">twitter.Cakes</a>  
-    </article>
-
-    <blockquote>
-      Я за простые рецепты. В Италии это называют cucina potera: когда обычные ингридиенты превращаются в божественное блюдо.
-    </blockquote>
-
-    <article>
-      <h2 class="main-title main-title--smaller">Наши преимущества</h2>
-      <p class="title-addition">Почему нас выбирают?</p>
-      <ul>
-        <li>
-          <p class="description description--title">Без искусственных добавок</p>
-          <p class="description">Работаем с натуральными ингридиентами и свежими продуктами</p>
-        </li>
-        <li>
-          <p class="description description--title">Свежий торт в день торжества</p>
-          <p class="description">Торты изготавливаются в течение суток до отправки</p>   
-        </li>
-      </ul>      
-    </article>
-
-    <article>
-      <h2 class="main-title main-title--smaller">Забота о клиентах</h2>
-      <p class="title-addition">Для нас важно</p>      
-      <p class="description">Нам важно чтобы каждый торт был безупречным, как внутри, так и снаружи, чтобы он был создан исключительно для вас и вашего события</p>
-    </article>
-
-    <article>
-      <h2 class="main-title main-title--white">Как заказать</h2>
-      
-        <p>
-          <p class="step step--numberW">1</p>
-          <p class="main-title main-title--white">Срок заказа</p>
-          <p class="description description--white">Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</p>           
-        </p>
-         <p>
-          <p class="step step--numberW">2</p>
-          <p class="main-title main-title--white">Доставка по городу</p>
-          <p class="description description--white">Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</p>           
-        </p>
-        <p>
-          <p class="step step--numberW">3</p>
-          <p class="main-title main-title--white">Доставка за городом</p>
-          <p class="description description--white">Доставка за пределами города рассчитывается индивидуально.</p>
-        </p>        
-      
-    </article>
-
-    <section>
-      <h2 class="main-title main-title--white">Контакты</h2>
-      <p class="title-addition">Остались вопросы?</p>
-      <p class="description">Заполните форму ниже и наш кондитер свяжется с Вами</p>
-      <form name="communication" method="post">
-            <input type="text" placeholder="Ваше имя">
-            <input type="text" placeholder="Email адрес">
-            <input type="text" placeholder="Ваш вопрос">
-            <a href="#" class="default-button">Отправить</a>
-      </form>      
-
-      <p class="description">Или позвоните по телефону:</p>
-      <a href="tel:+79068999296">+7 906 899 92 96</a>
-
-      <p class="description">Наша почта:</p>
-      <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a>
-
-      <p class="description">Мы в соц. сетях:</p>
-      <a href="#">instagram.Cakes</a>
-      <a href="#">vk.Cakes</a>      
+    <section class="about-us">
+      <div class="about-us__block">
+        <div class="about-us__info-wrapper">
+          <h2 class="about-us__header">О нас</h2>
+          <p class="about-us__subheader">О кондитере</p>
+          <p class="about-us__paragraph-title">Кондитер - как призвание</p>
+          <p class="about-us__paragraph">
+            Павел — профессиональный повар в различных гастрономических областях, но однажды его сердце покорило кондитерское искусство. С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как кондитер.
+          </p>
+          <p class="about-us__paragraph-title">Принцип - натуральные ингредиенты</p>
+          <p class="about-us__paragraph">
+            Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает качественную продукцию для торжества, а главным принципом является выбор натуральных ингредиентов.
+          </p>
+          <div class="about-us__link-list">
+            <a class="about-us__link" href="#">
+              <img class="about-us__instagram-link" src="images/inst.png" alt="instagram-link">
+            </a>
+            <a class="about-us__link" href="#">
+              <img class="about-us__vk-link" src="images/vk.png" alt="vk-link">
+            </a>  
+            <a class="about-us__link" href="#">
+              <img class="about-us__twitter-link" src="images/twitter.png" alt="twitter-link">
+            </a> 
+          </div>
+        </div>
+        <img src="images/confectioner.jpg" class="about-us__confectioner-photo" alt="confectioner">
+      </div>
+      <blockquote class="about-us__blockquote">
+        Я за простые рецепты. В Италии это называют cucina potera: когда обычные ингридиенты превращаются в божественное блюдо.
+      </blockquote>
     </section>
 
-    <footer>
-      <img src="http://placehold.it/60x40" alt="logo">
-      <a href="#">Наши торты</a>
-      <a href="#">Индивидуальный заказ</a>
-      <a href="#">Отзывы</a>
-      <a href="#">О нас</a>
-      <a href="#">Как заказать</a>
-      <a href="#">Контакты</a>
-      <p>2018 Cakes</p>
+    <div class="advantages-care-order">
+      <article class="advantages">
+        <h2 class="advantages__header">Наши преимущества</h2>
+        <p class="advantages__subheader">Почему нас выбирают?</p>
+        <div class="advantages__list">
+          <div class="advantages__item advantages__item--first">
+            <p class="advantages__advantage-title">Без искусственных добавок</p>
+            <p class="advantages__advantage">Работаем с натуральными ингридиентами и свежими продуктами</p>
+          </div>
+          <div class="advantages__item advantages__item--second">
+            <p class="advantages__advantage-title">Свежий торт в день торжества</p>
+            <p class="advantages__advantage">Торты изготавливаются в течение суток до отправки</p>
+          </div>
+        </div>     
+      </article>
+
+      <article class="care">
+        <h2 class="care__header">Забота о клиентах</h2>
+        <p class="care__subheader">Для нас важно</p>      
+        <p class="care__description">Нам важно чтобы каждый торт был безупречным, как внутри, так и снаружи, чтобы он был создан исключительно для вас и вашего события</p>
+      </article>
+
+      <section class="how-to-order">
+        <h2 class="how-to-order__header">Как заказать</h2>
+        <div class="how-to-order__step">
+          <span class="how-to-order__header-order">1</span>
+          <div class="how-to-order__text-block">
+            <p class="how-to-order__step-title">Срок заказа</p>
+            <p class="how-to-order__step-description">Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</p>
+          </div>     
+        </div>
+        <div class="how-to-order__step">
+          <span class="how-to-order__header-order">2</span>
+          <div class="how-to-order__text-block">
+            <p class="how-to-order__step-title">Доставка по городу</p>
+            <p class="how-to-order__step-description">Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</p>
+          </div>     
+        </div>
+        <div class="how-to-order__step">
+          <span class="how-to-order__header-order">3</span>
+          <div class="how-to-order__text-block">
+            <p class="how-to-order__step-title">Доставка за городом</p>
+            <p class="how-to-order__step-description">Доставка за пределами города рассчитывается индивидуально.</p>
+          </div>     
+        </div>
+      </section>
+    </div>
+
+    <section class="contacts">
+      <h2 class="contacts__header">Контакты</h2>
+      <p class="contacts__subheader">Остались вопросы?</p>
+      <div class="contacts__page">
+        <div class="contacts__form">
+          <p class="contacts__descriotion">Заполните форму ниже и наш кондитер свяжется с Вами</p>
+          <form class="contacts__input-list">
+            <input class="contacts__input" type="text" placeholder="Ваше имя">
+            <input class="contacts__input" type="text" placeholder="Email адрес">
+            <input class="contacts__input" type="text" placeholder="Ваш вопрос">
+            <button class="button button--contacts" type="button">Отправить</button>
+          </form>
+        </div>   
+        <div class="contacts__other-contacts">
+          <p class="contacts__text">Или позвоните по телефону:</p>
+          <a class="contacts__phone-number" href="tel:+79068999296">+7 906 899 92 96</a>
+
+          <p class="contacts__text">
+            Наша почта:
+            <a class="contacts__mail" href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a>
+          </p>
+
+          <p class="contacts__text">Мы в соц. сетях:</p>
+          <div class="contacts__link-list">
+            <a class="contacts__link" href="#">
+              <img class="contacts__instagram-link" src="images/inst.png" alt="instagram-link">
+            </a>
+            <a class="contacts__link" href="#">
+              <img class="contacts__vk-link" src="images/vk.png" alt="vk-link">
+            </a>
+          </div>
+        </div>
+      </div>    
+    </section>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <img class="footer__logo" width="81px" src="images/logo.png" alt="logo">
+        <div class="footer__nav">
+          <a class="footer__item" href="#">Наши торты</a>
+          <a class="footer__item" href="#">Индивидуальный заказ</a>
+          <a class="footer__item" href="#">Отзывы</a>
+          <a class="footer__item" href="#">О нас</a>
+          <a class="footer__item" href="#">Как заказать</a>
+          <a class="footer__item" href="#">Контакты</a>
+        </div>
+        <div class="footer__link-list">
+          <a class="footer__link" href="#">
+            <img class="footer__instagram-link" src="images/inst-gray.png" width="23px" alt="instagram-link">
+          </a>
+          <a class="footer__link" href="#">
+            <img class="footer__vk-link" src="images/vk-gray.png" width="31px" alt="vk-link">
+          </a>
+        </div>
+      </div>
+      <p class="footer__end">©  2018 Cakes</p>
     </footer>
   </body>
 </html>
