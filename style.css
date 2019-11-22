@@ -138,6 +138,7 @@ body  {
   margin-top: 60px;
   margin-left: 73px;
   max-width: 480px;
+  list-style-type: none;
 }
 
 .cakes-to-order__natural-ingredient {
@@ -182,7 +183,7 @@ body  {
   font-weight: bold;
 }
 
-.catalog__block {
+.catalog {
   margin-top: 45px;
   display: flex;
   flex-direction: row;
@@ -790,7 +791,7 @@ body  {
 }
 
 .advantages__list {
-/*  list-style-type: none;*/
+  list-style-type: none;
   margin: 127px 0px 0px 625px;
 }
 
