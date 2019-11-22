@@ -7,7 +7,7 @@ html {
 
 body  {
   background-color: #fbebea;
-  font-family: PT Sans, Arial, sans-serif;
+  font-family: 'PT Sans', 'Arial', sans-serif;
 
   font-weight: normal;
   font-stretch: normal;
@@ -95,7 +95,7 @@ body  {
 }
 
 .cakes-to-order__header {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 78px;
   font-weight: bold;
   letter-spacing: 3px;
@@ -105,7 +105,7 @@ body  {
 }
 
 .cakes-to-order__subheader {
-  font-family: Marck Script, Arial;
+  font-family: 'Marck Script', 'Arial';
   font-size: 40px;
   font-weight: normal;
   margin: 10px 0px 40px 73px;
@@ -147,7 +147,7 @@ body  {
   padding-left: 70px;
   max-width: 147px;
 
-  background-image: url(images/ikon_leaf.png);
+  background-image: url(images/icon_leaf.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: auto 100%;
@@ -161,7 +161,7 @@ body  {
   max-width: 236px;
 
 
-  background-image: url(images/ikon_gift.png);
+  background-image: url(images/icon_gift.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: auto 100%;
@@ -177,7 +177,7 @@ body  {
 
 .our-cake__header {
   margin-bottom: 20px;
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 40px;
   font-weight: bold;
 }
@@ -262,7 +262,7 @@ body  {
 }
 
 .individual-order__header {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 40px;
   font-weight: bold;
   margin:  0px;
@@ -270,7 +270,7 @@ body  {
 }
 
 .individual-order__subheader {
-  font-family: Marck Script, Arial;
+  font-family: 'Marck Script', 'Arial';
   font-size: 35px;
   margin-top: 16px;
   margin-bottom: 10px;
@@ -293,7 +293,7 @@ body  {
 }
 
 .filling__header {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 27px;
   font-weight: bold;
   color: #f50049;
@@ -322,13 +322,13 @@ body  {
   box-shadow: none;
   padding: 0px;
   align-self: center;
-  
-/*  position: absolute;
-  top: 1px;
-  left: 1px;*/
 }
 
 .slider__button--left {
+  background-color: white;
+  background-image: url(http://www.w3.org/2000/svg);
+  background-position: center;
+  background-size: 40px 40px;
   order: -1;
 }
 
@@ -387,7 +387,7 @@ body  {
 }
 
 .slider__item-cost {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 22px;
   font-weight: bold;
 }
@@ -402,7 +402,7 @@ body  {
 }
 
 .sizes__header {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 27px;
   font-weight: bold;
   color: #f50049;
@@ -479,7 +479,7 @@ body  {
 }
 
 .decor__header {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 26px;
   font-weight: bold;
   color: #f50049;
@@ -528,8 +528,11 @@ body  {
   box-shadow: 0px 6px 9.7px 0.3px rgba(0, 0, 0, 0.14);
 }
 
-.decor__item--assorted-berries {
+/*.decor__item--assorted-berries {
   background-image: url(images/assorted-berries.png);
+}*/
+.decor_assorted-berries {
+
 }
 
 .decor__item--marshmallow {
@@ -542,7 +545,7 @@ body  {
 }
 
 .decor__cost {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 22px;
   font-weight: bold;
   margin: 0px;
@@ -555,32 +558,34 @@ body  {
 }
 
 .decor__form-header {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 26px;
   font-weight: bold;
+  margin: 0px 0px 25px 0px;
 }
 
 .decor__form-field-list {
-  display: flex;
-  flex-direction: row;
-/*  justify-content: space-between;*/
-  align-items: center;
+  border: 0 none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .decor__form-field {
   width: 250px;
+  display: inline-block;
+  vertical-align: center;
 }
 
 .decor__field {
-  font-family: Marck Script, Arial;
+  font-family: 'Marck Script', 'Arial';
   font-size: 26px;
   color: #f50049;
 }
 
 .decor__form-field--size {
   width: 137px;
-  margin-right: 82px;
-  margin-left: 82px;
+  margin-right: 84px;
+  margin-left: 84px;
 }
 
 .decor__input {
@@ -597,6 +602,7 @@ body  {
 
 .button--decor-form {
   margin-left: 26px;
+  vertical-align: top;
 }
 
 .reviews {
@@ -612,7 +618,7 @@ body  {
   padding-top: 115px;
   margin: 0px;
   font-size: 40px;
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   text-align: center;
 }
 
@@ -673,14 +679,14 @@ body  {
 }
 
 .about-us__header {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 40px;
   font-weight: bold;
   margin: 0px;
 }
 
 .about-us__subheader {
-  font-family: Marck Script, Arial;
+  font-family: 'Marck Script', 'Arial';
   font-size: 35px;
   color: #32313d;
   margin: 35px 0px 0px 0px;
@@ -741,7 +747,7 @@ body  {
 }
 
 .about-us__blockquote {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
@@ -770,7 +776,7 @@ body  {
 .advantages__header {
   padding-top: 27px;
   margin: 0px;
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
@@ -778,12 +784,13 @@ body  {
 
 .advantages__subheader {
   margin: 31px 0px 0px 0px;
-  font-family: Marck Script, Arial;
+  font-family: 'Marck Script', 'Arial';
   font-size: 35px;
   text-align: center;
 }
 
 .advantages__list {
+/*  list-style-type: none;*/
   margin: 127px 0px 0px 625px;
 }
 
@@ -792,7 +799,7 @@ body  {
 }
 
 .advantages__item--first {
-  background-image: url(images/ikon_leaf.png);
+  background-image: url(images/icon_leaf.png);
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 61px;
@@ -821,7 +828,7 @@ body  {
 }
 
 .care__header {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 40px;
   font-weight: bold;
   margin: 0px;
@@ -829,7 +836,7 @@ body  {
 
 .care__subheader {
   margin: 30px 0px 0px 0px;
-  font-family: Marck Script, Arial;
+  font-family: 'Marck Script', 'Arial';
   font-size: 35px;
 }
 
@@ -846,7 +853,7 @@ body  {
 
 .how-to-order__header {
   margin: 0px 0px 49px 0px;
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 40px;
   font-weight: bold;
   color: #ffffff;
@@ -860,7 +867,7 @@ body  {
 }
 
 .how-to-order__header-order {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 64px;
   font-weight: bold;
   color: #ffffff;
@@ -894,14 +901,14 @@ body  {
 }
 
 .contacts__header {
-  font-family: Playfair Display, Times New Roman, serif;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 40px;
   font-weight: bold;
 }
 
 .contacts__subheader {
   margin: 42px 0px 0px 0px;
-  font-family: Marck Script, Arial;
+  font-family: 'Marck Script', 'Arial';
   font-size: 35px;
   color: #32313d;
 }
