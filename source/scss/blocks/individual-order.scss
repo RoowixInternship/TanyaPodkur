@@ -1,0 +1,142 @@
+.individual-order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 105px;
+  margin: 105px 73px 0px 73px;
+}
+
+.individual-order__header {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin:  0px;
+  text-align: center;
+}
+
+.individual-order__subheader {
+  font-family: 'Marck Script', 'Arial';
+  font-size: 35px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #32313d;
+}
+
+.individual-order__step {
+  width: 1220px;
+  height: 571px;
+  box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
+  background-color: #ffffff;
+  margin-top: 35px;
+  padding: 70px 80px;
+}
+
+.filling {
+  display: flex;
+  flex-direction: row;
+}
+
+.filling__header {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 27px;
+  font-weight: bold;
+  color: #f50049;
+  margin: 0px;
+  display: block;
+  max-width: 100px;
+}
+
+.filling__header-order {
+  font-size: 60px;
+  line-height: 32px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.slider__button {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+  padding: 0px;
+  align-self: center;
+}
+
+.slider__button--left {
+  background-color: white;
+  background-image: url(http://www.w3.org/2000/svg);
+  background-position: center;
+  background-size: 40px 40px;
+  order: -1;
+}
+
+.slider__button--left:hover {
+  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.16);
+}
+
+.slider__button--right {
+  order: 1;
+  transform: rotate(180deg);
+}
+
+.slider__button--right:hover {
+  box-shadow: 0px -1px 2px 0 rgba(0, 0, 0, 0.16);
+}
+
+.slider__inner-wrapper {
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.slider__page-number {
+  font-size: 18px;
+  color: rgba(47, 47, 47, 0.7);
+  align-self: flex-end;
+  order: 2;
+}
+
+.slider__item {
+  display: flex;
+  flex-direction: row;
+}
+
+.slider__filling-view {
+  max-width: 343px;
+  max-height: 349px;
+  background-color: #fbebea;
+  align-self: center;
+}
+
+.slider__info-wrapper {
+  padding-left: 42px;
+}
+
+.slider__item-header {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.slider__item-description {
+  font-size: 18px;
+  width: 316px;
+  margin-top: 10px;
+  margin-bottom: 23px;
+}
+
+.slider__item-cost {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.button--filling-button {
+  margin-top: 20px;
+}

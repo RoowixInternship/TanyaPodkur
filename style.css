@@ -83,7 +83,7 @@ body  {
 }
 
 .main-info {
-  background-image: url(images/main-cake.png);
+  background-image: url(source/images/main-cake.png);
   background-repeat: no-repeat;
   background-size: 1180px;
   background-position-x: 250px;
@@ -148,7 +148,7 @@ body  {
   padding-left: 70px;
   max-width: 147px;
 
-  background-image: url(images/icon_leaf.png);
+  background-image: url(source/images/icon_leaf.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: auto 100%;
@@ -162,7 +162,7 @@ body  {
   max-width: 236px;
 
 
-  background-image: url(images/icon_gift.png);
+  background-image: url(source/images/icon_gift.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: auto 100%;
@@ -468,7 +468,7 @@ body  {
   flex-direction: column;
   height: 752px;
 
-  background-image: url(images/decor-cake.png);
+  background-image: url(source/images/decor-cake.png);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 252px 334px;
@@ -537,7 +537,7 @@ body  {
 }
 
 .decor__item--marshmallow {
-  background-image: url(images/marshmallow.png);
+  background-image: url(source/images/marshmallow.png);
 }
 
 .decor__name {
@@ -607,7 +607,7 @@ body  {
 }
 
 .reviews {
-  background-image: url(images/garland-left.png), url(images/garland-right.png);
+  background-image: url(source/images/garland-left.png), url(source/images/garland-right.png);
   background-repeat: no-repeat;
   background-size: 612px;
   background-position: -60px top, 812px top;
@@ -757,14 +757,14 @@ body  {
   padding: 84px 0px 123px 0px;
   margin-top: 111px; 
 
-  background-image: url(images/signature.png), url(images/inverted-commas.png);
+  background-image: url(source/images/signature.png), url(source/images/inverted-commas.png);
   background-repeat: no-repeat;
   background-position: center bottom, center top;
   background-size: 149px 73px, 61px 40px;
 }
 
 .advantages-care-order {
-  background-image: url(images/advanages-plate.png), url(images/advantages-cake.png), url(images/how-to-order.jpg);
+  background-image: url(source/images/advanages-plate.png), url(source/images/advantages-cake.png), url(source/images/how-to-order.jpg);
   background-repeat: no-repeat;
   background-position: -12px top, 599px 677px, -63px bottom;
   background-size: 568px 690px, 818px 802px, auto 703px; 
@@ -800,7 +800,7 @@ body  {
 }
 
 .advantages__item--first {
-  background-image: url(images/icon_leaf.png);
+  background-image: url(source/images/icon_leaf.png);
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 61px;
@@ -895,7 +895,7 @@ body  {
 
 .contacts {
   margin: 82px 0px 0px 73px;
-  background-image: url(images/strawberries.png);
+  background-image: url(source/images/strawberries.png);
   background-repeat: no-repeat;
   background-size: 860px 411px;
   background-position: 445px bottom;

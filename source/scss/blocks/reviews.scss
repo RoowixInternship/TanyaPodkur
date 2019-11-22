@@ -1,0 +1,57 @@
+.reviews {
+  background-image: url(source/images/garland-left.png), url(source/images/garland-right.png);
+  background-repeat: no-repeat;
+  background-size: 612px;
+  background-position: -60px top, 812px top;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews__header {
+  padding-top: 115px;
+  margin: 0px;
+  font-size: 40px;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  text-align: center;
+}
+
+.slider--reviews {
+  margin-top: 64px;
+}
+
+.reviews__photo {
+  max-width: 209px;
+  max-height: 209px;
+  border-radius: 50%;
+  object-fit: contain;
+  align-self: center;
+}
+
+.slider__info-wrapper--reviews {
+  padding-left: 54px;
+}
+
+.reviews__name {
+  margin: 0px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.reviews__person {
+  margin: 8px 0px 0px 0px;
+  font-size: 20px;
+}
+
+.reviews__rewiew {
+  font-size: 18px;
+  max-width: 344px;
+}
+
+.reviews__link {
+  font-size: 16px;
+  color: rgba(245, 0, 73, 0.7);
+}
+
+.slider__page-number--reviews {
+  color: rgba(245, 0, 73, 0.7);
+}

@@ -1,0 +1,108 @@
+.contacts {
+  margin: 82px 0px 0px 73px;
+  background-image: url(source/images/strawberries.png);
+  background-repeat: no-repeat;
+  background-size: 860px 411px;
+  background-position: 445px bottom;
+}
+
+.contacts__header {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contacts__subheader {
+  margin: 42px 0px 0px 0px;
+  font-family: 'Marck Script', 'Arial';
+  font-size: 35px;
+  color: #32313d;
+}
+
+.contacts__page {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 297px;
+}
+
+.contacts__form {
+  margin-top: 16px;
+  width: 550px;
+}
+
+.contacts__descriotion {
+  margin: 0px 0px 20px 0px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.contacts__input-list {
+
+}
+
+.contacts__input {
+  width: 550px;
+  height: 50px;
+  margin-top: 10px;
+  color: #c1b0af;
+  background-color: #fbebea;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-color: #c1b0af;
+}
+
+.button--contacts {
+  margin-top: 80px;
+  text-transform: none;
+}
+
+.contacts__other-contacts{
+  margin-left: 81px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.contacts__text {
+  margin: 0px;
+}
+
+.contacts__phone-number {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts__mail {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts__link-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 156px;
+}
+
+.contacts__link {
+  width: 63px;
+  height: 63px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.contacts__link:hover {
+  box-shadow: 0px 2px 7px 1px rgba(255, 0, 67, 0.2);
+}
+
+.contacts__instagram-link {
+  width: 28px;
+  height: 28px;
+  margin: 18px;
+}
+
+.contacts__vk-link {
+  width: 41px;
+  height: 29px;
+  margin: 14px 13px 20px 9px;
+}

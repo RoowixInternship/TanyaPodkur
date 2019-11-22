@@ -1,0 +1,85 @@
+.our-cake {
+  margin-top: 200px;
+  margin: 200px 73px 0px 73px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.our-cake__header {
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.catalog {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.catalog__item {
+  width: 695px;
+  height: 652px;
+  padding: 40px;
+  position: relative;
+  box-shadow: 0px 2.5px 6.4px 0.1px rgba(163, 6, 60, 0.1);
+}
+
+.catalog__item--smaller {
+  width: 483px;
+  height: 304px;
+}
+
+.catalog__item-link {
+  text-decoration: none;
+}
+
+.catalog__item-image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.catalog__item-title {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0px;
+  color: #2d2829;
+}
+
+.catalog__item-type-counter {
+  font-size: 20px;
+  color: rgba(45, 40, 41, 0.7);
+  margin: 0px;
+}
+
+.catalog__item-title,
+.catalog__item-type-counter {
+  position: relative;
+  z-index: 2;
+}
+
+.catalog__item-add {
+  position: absolute;
+  bottom: 35px;
+  right: 70px;
+  z-index: 2;
+  color: #2d2829;
+  font-size: 20px;
+  display: block;
+}
+
+.our-cake__double-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 62px 70px 0px 73px;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 700px;
+}
+
+.header__nav-item {
+  font-size: 13px;
+  color: #2d2829;
+  text-decoration: none;
+}
+
+.header__phone-number {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 3;
+  text-decoration: none;
+  color: #2d2829;
+}

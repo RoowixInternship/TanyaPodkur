@@ -1,0 +1,60 @@
+.advantages-care-order {
+  background-image: url(source/images/advanages-plate.png), url(source/images/advantages-cake.png), url(source/images/how-to-order.jpg);
+  background-repeat: no-repeat;
+  background-position: -12px top, 599px 677px, -63px bottom;
+  background-size: 568px 690px, 818px 802px, auto 703px;
+}
+
+.advantages {
+  margin: 143px 0px 0px 73px;
+}
+
+.advantages__header {
+  padding-top: 27px;
+  margin: 0px;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.advantages__subheader {
+  margin: 31px 0px 0px 0px;
+  font-family: 'Marck Script', 'Arial';
+  font-size: 35px;
+  text-align: center;
+}
+
+.advantages__list {
+  list-style-type: none;
+  margin: 127px 0px 0px 625px;
+}
+
+.advantages__item{
+  padding-left: 80px;
+}
+
+.advantages__item--first {
+  background-image: url(source/images/icon_leaf.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 61px;
+}
+
+.advantages__item--second {
+  margin-top: 42px;
+}
+
+.advantages__advantage-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0px;
+}
+
+.advantages__advantage {
+  font-size: 20px;
+  color: #000000;
+  max-width: 371px;
+  margin: 9px 0px 0px 0px;
+}

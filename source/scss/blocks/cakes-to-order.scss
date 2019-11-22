@@ -1,0 +1,85 @@
+.main-info {
+  background-image: url(source/images/main-cake.png);
+  background-repeat: no-repeat;
+  background-size: 1180px;
+  background-position-x: 250px;
+  background-position-y: top;
+}
+
+.cakes-to-order {
+  padding-top: 70px;
+}
+
+.cakes-to-order__header {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 78px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+  width: 353px;
+  margin-left: 73px;
+}
+
+.cakes-to-order__subheader {
+  font-family: 'Marck Script', 'Arial';
+  font-size: 40px;
+  font-weight: normal;
+  margin: 10px 0px 40px 73px;
+  color: #32313d;
+}
+
+.button {
+  padding: 21px 61px;
+  background-color: #f50049;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-family: 'Pt Sans', 'Arial', sans-serif;
+  font-size: 13px;
+}
+
+.button:hover {
+  box-shadow: 0px 5px 7px 1px rgba(255, 0, 67, 0.3);
+}
+
+.button--cakes-to-order {
+  margin-left: 73px;
+}
+
+.cakes-to-order__advantages-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-left: 73px;
+  max-width: 480px;
+  list-style-type: none;
+}
+
+.cakes-to-order__natural-ingredient {
+  font-size: 14px;
+  color: #000000;
+  padding: 7px;
+  padding-left: 70px;
+  max-width: 147px;
+
+  background-image: url(source/images/icon_leaf.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto 100%;
+}
+
+.cakes-to-order__free-shipping {
+  font-size: 14px;
+  color: #000000;
+  padding: 7px;
+  padding-left: 70px;
+  max-width: 236px;
+
+
+  background-image: url(source/images/icon_gift.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto 100%;
+}

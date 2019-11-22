@@ -1,0 +1,37 @@
+{
+  "name": "tort",
+  "version": "17.0.0",
+  "private": true,
+  "description": "Учебный проект стажировки Roowix 2019",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svgstore": "^7.0.1",
+    "run-sequence": "^2.2.0"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp server"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "engines": {
+    "node": "8.16"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.1"
+  }
+}

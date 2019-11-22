@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body  {
+  background-color: #fbebea;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #2d2829;
+
+  max-width: 1366px;
+}
