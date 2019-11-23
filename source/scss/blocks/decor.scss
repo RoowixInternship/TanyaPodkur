@@ -3,7 +3,7 @@
   flex-direction: column;
   height: 752px;
 
-  background-image: url(source/images/decor-cake.png);
+  background-image: url(../img/decor-cake.png);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 252px 334px;
@@ -19,7 +19,7 @@
   font-size: 26px;
   font-weight: bold;
   color: #f50049;
-  margin: 0px;
+  margin: 0;
   display: block;
   flex-grow: 0;
   max-width: 160px;
@@ -55,36 +55,33 @@
   justify-content: flex-end;
   align-items: center;
 
-  box-shadow: 0px 3.5px 6.4px 0.1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3.5px 6.4px 0.1px rgba(0, 0, 0, 0.05);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .decor__item:hover {
-  box-shadow: 0px 6px 9.7px 0.3px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 6px 9.7px 0.3px rgba(0, 0, 0, 0.14);
 }
 
-/*.decor__item--assorted-berries {
-  background-image: url(images/assorted-berries.png);
-}*/
-.decor_assorted-berries {
-
+.decor__item--assorted-berries {
+  background-image: url(../img/assorted-berries.png);
 }
 
 .decor__item--marshmallow {
-  background-image: url(source/images/marshmallow.png);
+  background-image: url(../img/marshmallow.png);
 }
 
 .decor__name {
   font-size: 20px;
-  margin: 0px;
+  margin: 0;
 }
 
 .decor__cost {
   font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 22px;
   font-weight: bold;
-  margin: 0px;
+  margin: 0;
 }
 
 .decor__form {
@@ -97,13 +94,13 @@
   font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 26px;
   font-weight: bold;
-  margin: 0px 0px 25px 0px;
+  margin: 0 0 25px 0;
 }
 
 .decor__form-field-list {
   border: 0 none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .decor__form-field {

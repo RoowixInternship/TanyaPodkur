@@ -62,6 +62,7 @@ gulp.task("build", function (done) {
         "css",
         "images",
         "html",
+        "fonts",
         done
     )
 });

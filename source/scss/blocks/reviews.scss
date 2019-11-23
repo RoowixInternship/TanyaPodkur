@@ -1,5 +1,5 @@
 .reviews {
-  background-image: url(source/images/garland-left.png), url(source/images/garland-right.png);
+  background-image: url(../img/garland-left.png), url(../img/garland-right.png);
   background-repeat: no-repeat;
   background-size: 612px;
   background-position: -60px top, 812px top;
@@ -9,7 +9,7 @@
 
 .reviews__header {
   padding-top: 115px;
-  margin: 0px;
+  margin: 0;
   font-size: 40px;
   font-family: 'Playfair Display', 'Times New Roman', serif;
   text-align: center;
@@ -32,13 +32,13 @@
 }
 
 .reviews__name {
-  margin: 0px;
+  margin: 0;
   font-size: 27px;
   font-weight: bold;
 }
 
 .reviews__person {
-  margin: 8px 0px 0px 0px;
+  margin: 8px 0 0 0;
   font-size: 20px;
 }
 
