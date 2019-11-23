@@ -1,0 +1,45 @@
+.how-to-order {
+  margin: 386px 0 0 836px;
+  padding-bottom: 185px;
+}
+
+.how-to-order__header {
+  margin: 0 0 49px 0;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+.how-to-order__step {
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+}
+
+.how-to-order__header-order {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: #ffffff;
+  /*align-self: flex-start;*/
+  margin: 0 20px 0 0;
+}
+
+.how-to-order__text-block {
+  max-width: 433px;
+}
+
+.how-to-order__step-title {
+  margin: 0;
+  font-size: 21px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.how-to-order__step-description {
+  margin: 11px 0 0 0;
+  font-size: 20px;
+  color: #ffffff;
+}

@@ -1,0 +1,98 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us__block {
+  margin: 176px 0 0 73px;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-us__info-wrapper {
+  max-width: 540px;
+}
+
+.about-us__header {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.about-us__subheader {
+  font-family: 'Marck Script', 'Arial';
+  font-size: 35px;
+  color: #32313d;
+  margin: 35px 0 0 0;
+}
+
+.about-us__paragraph-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.about-us__paragraph {
+  font-size: 18px;
+  margin: 12px 0 25px 0;
+}
+
+.about-us__link-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 144px;
+}
+
+.about-us__link {
+  width: 36px;
+  height: 36px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.about-us__link:hover {
+  box-shadow: 0 2px 7px 1px rgba(255, 0, 67, 0.2);
+}
+
+.about-us__instagram-link {
+  width: 18px;
+  height: 18px;
+  margin: 9px;
+}
+
+.about-us__vk-link {
+  width: 25px;
+  height: 17px;
+  margin: 9px 7px 10px 4px;
+}
+
+.about-us__twitter-link {
+  width: 19px;
+  height: 16px;
+  margin: 10px 8px 10px 9px;
+}
+
+.about-us__confectioner-photo {
+  width: 508px;
+  height: 508px;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.about-us__blockquote {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 616px;
+  align-self: center;
+  padding: 84px 0 123px 0;
+  margin-top: 111px;
+
+  background-image: url(../img/signature.png), url(../img/inverted-commas.png);
+  background-repeat: no-repeat;
+  background-position: center bottom, center top;
+  background-size: 149px 73px, 61px 40px;
+}

@@ -1,0 +1,65 @@
+.sizes {
+  display: flex;
+  flex-direction: row;
+}
+
+.sizes__header {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 27px;
+  font-weight: bold;
+  color: #f50049;
+  margin: 0;
+  display: block;
+  max-width: 133px;
+}
+
+.sizes__header-order {
+  font-size: 60px;
+  line-height: 32px;
+}
+
+.sizes__list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  align-self: center;
+  margin-left: 15px;
+}
+
+.sizes__item {
+  margin-right: 30px
+}
+
+.sizes__button {
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+}
+
+.sizes__button:hover {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+}
+
+.sizes__item-description {
+  font-size: 18px;
+  height: 47px;
+  color: rgba(47, 47, 47, 0.8);
+}
+
+.sizes__item-description--one-kg {
+  width: 110px;
+}
+
+.sizes__item-description--two-kg {
+  width: 154px;
+}
+
+.sizes__item-description--five-kg {
+  width: 174px;
+}
+
+.sizes__item-description--eight-kg {
+  width: 200px;
+}
