@@ -85,24 +85,41 @@
 }
 
 .contacts__link {
+  display: block;
   width: 63px;
   height: 63px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
   background-color: #ffffff;
   border-radius: 50%;
+
+  &:hover {
+    box-shadow: 0 2px 7px 1px rgba(255, 0, 67, 0.2);
+  }
 }
 
-.contacts__link:hover {
-  box-shadow: 0 2px 7px 1px rgba(255, 0, 67, 0.2);
+.contacts__link--instagram {
+  &::before {
+    background: url(../img/inst.png) center no-repeat;
+    background-size: 28px;
+    content: '';
+    display: block;
+    height: 63px;
+  }
 }
 
-.contacts__instagram-link {
-  width: 28px;
-  height: 28px;
-  margin: 18px;
+.contacts__link--vk {
+  &::before {
+    background: url(../img/vk.png) no-repeat;
+    background-position: 9px 14px;
+    background-size: 41px 29px;
+    content: '';
+    display: block;
+    height: 63px;
+  }
 }
 
-.contacts__vk-link {
-  width: 41px;
-  height: 29px;
-  margin: 14px 13px 20px 9px;
+.contacts__form-label {
+  text-opacity: 0;
 }
